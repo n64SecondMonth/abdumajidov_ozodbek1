@@ -1,0 +1,36 @@
+.easy {
+    background-color: #F2EFE6;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 70px;
+
+    &__list {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__item {
+        width: 20%;
+        text-align: center;
+
+        h4 {
+            margin-top: 20px;
+            font-size: 1.3em;
+        }
+    }
+
+    &__form {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    &__btn {
+        width: 200px;
+        height: 40px;
+        background-color: #198C36;
+        border-color: #198C36;
+        color: white;
+        border-radius: 20px;
+    }
+
+}

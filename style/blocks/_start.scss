@@ -1,0 +1,32 @@
+.start {
+    width: 100%;
+    background-color: #163A24;
+    padding: 70px;
+
+    &__title {
+        text-align: center;
+        color: white;
+        font-size: 2em;
+    }
+
+    &__text {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        color: white;
+    }
+
+    &__form {
+        text-align: center;
+
+        button {
+            width: 200px;
+            height: 40px;
+            background-color:
+                rgba(250, 181, 160, 1);
+            border-radius: 20px;
+            border-color: rgba(250, 181, 160, 1);
+
+        }
+    }
+}
